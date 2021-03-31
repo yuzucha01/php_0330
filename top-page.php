@@ -20,6 +20,7 @@ $shops = getAllShop();
   <body>
     <header>
       <div class="content">
+        <h2>Eat Shop</h2>
         <ul>
           <li><a href="chat.php">/　　RECIPE Chat　　/</a></li>
           <li><a href="shop.php">　　　/　　SHOP Plus　　/　　　</a></li>
