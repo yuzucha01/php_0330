@@ -63,6 +63,10 @@ $shops = getAllShop();
                       <input type="submit" value="削除">
                       <input type="hidden" name="id" value="<?=$shop['id']?>">
                     </form>
+               　   <form action="shop_upload.php" method="post">
+                      <input type="submit" value="編集する">
+                      <input type="hidden" name="id" value="<?=$shop['id']?>">
+                    </form>
                 </div>
             <?php endforeach; ?>
          </div>
